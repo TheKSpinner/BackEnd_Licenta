@@ -1,0 +1,1 @@
+Failed to save consultation: org.hibernate.TransientPropertyValueException: Not-null property references a transient value - transient instance must be saved before current operation : org.example.backend.consultatii.Consultatii.medici -> org.example.backend.medici.Medici

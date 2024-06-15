@@ -1,0 +1,28 @@
+2024-06-15T17:06:22.439+03:00  INFO 30880 --- [main] org.example.backend.BackEndApplication   : Starting BackEndApplication using Java 20.0.1 with PID 30880 (C:\Users\alexa\Desktop\AC IS\Cursuri Seminare Laboratoare\An IV\Licenta\BackEnd\target\classes started by Alex in C:\Users\alexa\Desktop\AC IS\Cursuri Seminare Laboratoare\An IV\Licenta\BackEnd)
+2024-06-15T17:06:22.445+03:00  INFO 30880 --- [main] org.example.backend.BackEndApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-06-15T17:06:23.361+03:00  INFO 30880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-15T17:06:23.471+03:00  INFO 30880 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 7 JPA repository interfaces.
+2024-06-15T17:06:24.658+03:00  INFO 30880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-06-15T17:06:24.685+03:00  INFO 30880 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-15T17:06:24.685+03:00  INFO 30880 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-15T17:06:24.825+03:00  INFO 30880 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-15T17:06:24.826+03:00  INFO 30880 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2275 ms
+2024-06-15T17:06:25.038+03:00  INFO 30880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-06-15T17:06:26.196+03:00  INFO 30880 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b867ee7
+2024-06-15T17:06:26.199+03:00  INFO 30880 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-06-15T17:06:26.261+03:00  INFO 30880 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-15T17:06:26.359+03:00  INFO 30880 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-15T17:06:26.401+03:00  INFO 30880 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-06-15T17:06:26.727+03:00  INFO 30880 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-15T17:06:28.285+03:00  INFO 30880 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-15T17:06:28.289+03:00  INFO 30880 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-15T17:06:28.626+03:00  INFO 30880 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-06-15T17:06:29.235+03:00  WARN 30880 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-15T17:06:29.716+03:00  INFO 30880 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-06-15T17:06:29.727+03:00  INFO 30880 --- [main] org.example.backend.BackEndApplication   : Started BackEndApplication in 7.994 seconds (process running for 9.435)
+2024-06-15T17:06:53.338+03:00  INFO 30880 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15T17:06:53.338+03:00  INFO 30880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-15T17:06:53.339+03:00  INFO 30880 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-06-15T17:08:27.952+03:00  INFO 30880 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-15T17:08:27.955+03:00  INFO 30880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-06-15T17:08:28.530+03:00  INFO 30880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

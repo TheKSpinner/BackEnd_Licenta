@@ -1,0 +1,6 @@
+{
+  "timestamp": "2024-04-09T16:11:14.588+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/consultatii/upload"
+}
